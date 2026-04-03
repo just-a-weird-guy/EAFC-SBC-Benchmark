@@ -1,0 +1,3989 @@
+{
+  "generatedAt": "2026-04-03T14:05:03.143Z",
+  "benchmark": {
+    "version": "eafc-sbc-benchmark-v1",
+    "challengeCount": 209,
+    "source": "baseline-reference",
+    "redacted": true,
+    "containsReferenceSolutions": false
+  },
+  "summary": {
+    "challengeCount": 209,
+    "solvedCount": 209,
+    "unsolvedCount": 0,
+    "solveRatePct": 100
+  },
+  "results": [
+    {
+      "challengeId": 2101,
+      "solved": true,
+      "stats": {
+        "averageRating": 71.18,
+        "squadRating": 74,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 79,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 783,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1885
+        }
+      }
+    },
+    {
+      "challengeId": 2100,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.36,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 5,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 796,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2183
+        }
+      }
+    },
+    {
+      "challengeId": 2092,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.82,
+        "squadRating": 69,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 746,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 1892
+        }
+      }
+    },
+    {
+      "challengeId": 2093,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.91,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 79,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 813,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 2503
+        }
+      }
+    },
+    {
+      "challengeId": 2094,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.18,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 81,
+          "highRatingScore": 1,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 10,
+          "sumRating": 838,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2360
+        }
+      }
+    },
+    {
+      "challengeId": 2095,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.64,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 82,
+          "highRatingScore": 17,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 832,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 1587
+        }
+      }
+    },
+    {
+      "challengeId": 1918,
+      "solved": true,
+      "stats": {
+        "averageRating": 78,
+        "squadRating": 80,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 858,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2306
+        }
+      }
+    },
+    {
+      "challengeId": 1968,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.82,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 812,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 3151
+        }
+      }
+    },
+    {
+      "challengeId": 1926,
+      "solved": true,
+      "stats": {
+        "averageRating": 71,
+        "squadRating": 73,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 781,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2052
+        }
+      }
+    },
+    {
+      "challengeId": 1927,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.45,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 79,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 819,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2531
+        }
+      }
+    },
+    {
+      "challengeId": 1928,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.27,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 87,
+          "highRatingScore": 351,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 10,
+          "sumRating": 839,
+          "specialCount": 1,
+          "tradableCount": 2,
+          "scarcityPenalty": 2545
+        }
+      }
+    },
+    {
+      "challengeId": 1929,
+      "solved": true,
+      "stats": {
+        "averageRating": 77.27,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 1,
+          "maxRating": 88,
+          "highRatingScore": 855,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 850,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 3740
+        }
+      }
+    },
+    {
+      "challengeId": 1826,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.91,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 6,
+          "maxRating": 84,
+          "highRatingScore": 64,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 813,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1754
+        }
+      }
+    },
+    {
+      "challengeId": 1825,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.36,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 829,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2211
+        }
+      }
+    },
+    {
+      "challengeId": 1798,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.45,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 72,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 742,
+          "specialCount": 0,
+          "tradableCount": 5,
+          "scarcityPenalty": 2167
+        }
+      }
+    },
+    {
+      "challengeId": 1799,
+      "solved": true,
+      "stats": {
+        "averageRating": 71.82,
+        "squadRating": 74,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 790,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2538
+        }
+      }
+    },
+    {
+      "challengeId": 1800,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.73,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 10,
+          "sumRating": 822,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 3226
+        }
+      }
+    },
+    {
+      "challengeId": 1801,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.82,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 65,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 845,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 3578
+        }
+      }
+    },
+    {
+      "challengeId": 1725,
+      "solved": true,
+      "stats": {
+        "averageRating": 77.55,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 85,
+          "highRatingScore": 1,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 853,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1766
+        }
+      }
+    },
+    {
+      "challengeId": 1724,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.27,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 828,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2668
+        }
+      }
+    },
+    {
+      "challengeId": 1723,
+      "solved": true,
+      "stats": {
+        "averageRating": 69.64,
+        "squadRating": 72,
+        "solvedValue": {
+          "ratingExcess": 2,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 766,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1760
+        }
+      }
+    },
+    {
+      "challengeId": 1726,
+      "solved": true,
+      "stats": {
+        "averageRating": 68,
+        "squadRating": 69,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 72,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 748,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2425
+        }
+      }
+    },
+    {
+      "challengeId": 1727,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.27,
+        "squadRating": 74,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 795,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2511
+        }
+      }
+    },
+    {
+      "challengeId": 1728,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.82,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 88,
+          "highRatingScore": 512,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 10,
+          "sumRating": 823,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1821
+        }
+      }
+    },
+    {
+      "challengeId": 1729,
+      "solved": true,
+      "stats": {
+        "averageRating": 76,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 82,
+          "highRatingScore": 10,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 836,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 1537
+        }
+      }
+    },
+    {
+      "challengeId": 1691,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.91,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 86,
+          "highRatingScore": 216,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 10,
+          "sumRating": 802,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1706
+        }
+      }
+    },
+    {
+      "challengeId": 1692,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.36,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 82,
+          "highRatingScore": 9,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 840,
+          "specialCount": 0,
+          "tradableCount": 7,
+          "scarcityPenalty": 2818
+        }
+      }
+    },
+    {
+      "challengeId": 1689,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.27,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 87,
+          "highRatingScore": 351,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 10,
+          "sumRating": 806,
+          "specialCount": 1,
+          "tradableCount": 2,
+          "scarcityPenalty": 2196
+        }
+      }
+    },
+    {
+      "challengeId": 1690,
+      "solved": true,
+      "stats": {
+        "averageRating": 76,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 72,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 836,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2700
+        }
+      }
+    },
+    {
+      "challengeId": 1730,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.45,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 81,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 808,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2275
+        }
+      }
+    },
+    {
+      "challengeId": 1685,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.18,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 71,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 739,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2175
+        }
+      }
+    },
+    {
+      "challengeId": 1686,
+      "solved": true,
+      "stats": {
+        "averageRating": 74,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 814,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1771
+        }
+      }
+    },
+    {
+      "challengeId": 1687,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.45,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 79,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 10,
+          "sumRating": 830,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1673
+        }
+      }
+    },
+    {
+      "challengeId": 1688,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.09,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 83,
+          "highRatingScore": 35,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 826,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 2066
+        }
+      }
+    },
+    {
+      "challengeId": 1577,
+      "solved": true,
+      "stats": {
+        "averageRating": 70.64,
+        "squadRating": 72,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 777,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 1780
+        }
+      }
+    },
+    {
+      "challengeId": 1576,
+      "solved": true,
+      "stats": {
+        "averageRating": 68,
+        "squadRating": 74,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 82,
+          "highRatingScore": 18,
+          "highRatingCount": 4,
+          "identityBalancePenalty": 0,
+          "sumRating": 748,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2439
+        }
+      }
+    },
+    {
+      "challengeId": 1575,
+      "solved": true,
+      "stats": {
+        "averageRating": 71.73,
+        "squadRating": 74,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 79,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 789,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2346
+        }
+      }
+    },
+    {
+      "challengeId": 1570,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.55,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 73,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 743,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2064
+        }
+      }
+    },
+    {
+      "challengeId": 1571,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.09,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 804,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1834
+        }
+      }
+    },
+    {
+      "challengeId": 1573,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.27,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 82,
+          "highRatingScore": 17,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 839,
+          "specialCount": 0,
+          "tradableCount": 5,
+          "scarcityPenalty": 2129
+        }
+      }
+    },
+    {
+      "challengeId": 1522,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.27,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 89,
+          "highRatingScore": 737,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 828,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1779
+        }
+      }
+    },
+    {
+      "challengeId": 1511,
+      "solved": true,
+      "stats": {
+        "averageRating": 68.18,
+        "squadRating": 69,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 72,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 750,
+          "specialCount": 0,
+          "tradableCount": 5,
+          "scarcityPenalty": 2735
+        }
+      }
+    },
+    {
+      "challengeId": 1439,
+      "solved": true,
+      "stats": {
+        "averageRating": 77,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 129,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 847,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1880
+        }
+      }
+    },
+    {
+      "challengeId": 1494,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.18,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 74,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 739,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2706
+        }
+      }
+    },
+    {
+      "challengeId": 1495,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.55,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 79,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 798,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2032
+        }
+      }
+    },
+    {
+      "challengeId": 1496,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.18,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 1,
+          "maxRating": 81,
+          "highRatingScore": 2,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 10,
+          "sumRating": 827,
+          "specialCount": 0,
+          "tradableCount": 6,
+          "scarcityPenalty": 2295
+        }
+      }
+    },
+    {
+      "challengeId": 1497,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.27,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 83,
+          "highRatingScore": 28,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 828,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 1787
+        }
+      }
+    },
+    {
+      "challengeId": 1422,
+      "solved": true,
+      "stats": {
+        "averageRating": 68.27,
+        "squadRating": 69,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 74,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 751,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 2744
+        }
+      }
+    },
+    {
+      "challengeId": 1431,
+      "solved": true,
+      "stats": {
+        "averageRating": 79,
+        "squadRating": 80,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 86,
+          "highRatingScore": 8,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 869,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2324
+        }
+      }
+    },
+    {
+      "challengeId": 1432,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.91,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 82,
+          "highRatingScore": 10,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 835,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1581
+        }
+      }
+    },
+    {
+      "challengeId": 1433,
+      "solved": true,
+      "stats": {
+        "averageRating": 79.18,
+        "squadRating": 80,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 66,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 871,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2780
+        }
+      }
+    },
+    {
+      "challengeId": 1421,
+      "solved": true,
+      "stats": {
+        "averageRating": 70.55,
+        "squadRating": 72,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 79,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 776,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2403
+        }
+      }
+    },
+    {
+      "challengeId": 1417,
+      "solved": true,
+      "stats": {
+        "averageRating": 70.82,
+        "squadRating": 73,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 79,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 779,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2102
+        }
+      }
+    },
+    {
+      "challengeId": 1418,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.18,
+        "squadRating": 74,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 794,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2783
+        }
+      }
+    },
+    {
+      "challengeId": 1419,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.82,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 10,
+          "sumRating": 845,
+          "specialCount": 0,
+          "tradableCount": 5,
+          "scarcityPenalty": 2450
+        }
+      }
+    },
+    {
+      "challengeId": 1420,
+      "solved": true,
+      "stats": {
+        "averageRating": 77.36,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 2,
+          "maxRating": 89,
+          "highRatingScore": 730,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 851,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1592
+        }
+      }
+    },
+    {
+      "challengeId": 1386,
+      "solved": true,
+      "stats": {
+        "averageRating": 70.27,
+        "squadRating": 73,
+        "solvedValue": {
+          "ratingExcess": 5,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 773,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 1991
+        }
+      }
+    },
+    {
+      "challengeId": 1404,
+      "solved": true,
+      "stats": {
+        "averageRating": 85.55,
+        "squadRating": 86,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 87,
+          "highRatingScore": 25,
+          "highRatingCount": 4,
+          "identityBalancePenalty": 0,
+          "sumRating": 941,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 1626
+        }
+      }
+    },
+    {
+      "challengeId": 1385,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.64,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 83,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 810,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2744
+        }
+      }
+    },
+    {
+      "challengeId": 1384,
+      "solved": true,
+      "stats": {
+        "averageRating": 69.36,
+        "squadRating": 74,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 79,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 763,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2446
+        }
+      }
+    },
+    {
+      "challengeId": 1294,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.09,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 70,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 738,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2431
+        }
+      }
+    },
+    {
+      "challengeId": 1295,
+      "solved": true,
+      "stats": {
+        "averageRating": 69.18,
+        "squadRating": 70,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 77,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 761,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1785
+        }
+      }
+    },
+    {
+      "challengeId": 1296,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.18,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 1,
+          "maxRating": 81,
+          "highRatingScore": 1,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 10,
+          "sumRating": 827,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 1579
+        }
+      }
+    },
+    {
+      "challengeId": 1297,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.09,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 81,
+          "highRatingScore": 1,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 826,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 1679
+        }
+      }
+    },
+    {
+      "challengeId": 1169,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.64,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 81,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 843,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 3296
+        }
+      }
+    },
+    {
+      "challengeId": 1168,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.55,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 85,
+          "highRatingScore": 1,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 842,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 1191
+        }
+      }
+    },
+    {
+      "challengeId": 1167,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.27,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 5,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 817,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 1779
+        }
+      }
+    },
+    {
+      "challengeId": 1161,
+      "solved": true,
+      "stats": {
+        "averageRating": 66.91,
+        "squadRating": 67,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 70,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 736,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2901
+        }
+      }
+    },
+    {
+      "challengeId": 1162,
+      "solved": true,
+      "stats": {
+        "averageRating": 71.36,
+        "squadRating": 73,
+        "solvedValue": {
+          "ratingExcess": 8,
+          "maxRating": 75,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 785,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 1561
+        }
+      }
+    },
+    {
+      "challengeId": 1163,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.36,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 10,
+          "sumRating": 807,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2064
+        }
+      }
+    },
+    {
+      "challengeId": 1164,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.18,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 64,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 827,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2251
+        }
+      }
+    },
+    {
+      "challengeId": 1060,
+      "solved": true,
+      "stats": {
+        "averageRating": 66.55,
+        "squadRating": 67,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 71,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 732,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 3148
+        }
+      }
+    },
+    {
+      "challengeId": 1061,
+      "solved": true,
+      "stats": {
+        "averageRating": 71.36,
+        "squadRating": 73,
+        "solvedValue": {
+          "ratingExcess": 8,
+          "maxRating": 75,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 785,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 1561
+        }
+      }
+    },
+    {
+      "challengeId": 1062,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.82,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 89,
+          "highRatingScore": 729,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 812,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 1798
+        }
+      }
+    },
+    {
+      "challengeId": 1063,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.36,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 73,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 807,
+          "specialCount": 0,
+          "tradableCount": 5,
+          "scarcityPenalty": 2716
+        }
+      }
+    },
+    {
+      "challengeId": 977,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.18,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 69,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 739,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1935
+        }
+      }
+    },
+    {
+      "challengeId": 978,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.91,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 88,
+          "highRatingScore": 64,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 802,
+          "specialCount": 1,
+          "tradableCount": 1,
+          "scarcityPenalty": 5003
+        }
+      }
+    },
+    {
+      "challengeId": 979,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.82,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 1,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 10,
+          "sumRating": 823,
+          "specialCount": 0,
+          "tradableCount": 5,
+          "scarcityPenalty": 3383
+        }
+      }
+    },
+    {
+      "challengeId": 980,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.18,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 1,
+          "maxRating": 84,
+          "highRatingScore": 64,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 827,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2639
+        }
+      }
+    },
+    {
+      "challengeId": 846,
+      "solved": true,
+      "stats": {
+        "averageRating": 59.91,
+        "squadRating": 63,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 73,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 659,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2248
+        }
+      }
+    },
+    {
+      "challengeId": 845,
+      "solved": true,
+      "stats": {
+        "averageRating": 65.18,
+        "squadRating": 69,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 717,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1880
+        }
+      }
+    },
+    {
+      "challengeId": 827,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.36,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 818,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 3881
+        }
+      }
+    },
+    {
+      "challengeId": 826,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.91,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 81,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 824,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2201
+        }
+      }
+    },
+    {
+      "challengeId": 973,
+      "solved": true,
+      "stats": {
+        "averageRating": 66.73,
+        "squadRating": 67,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 72,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 734,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2786
+        }
+      }
+    },
+    {
+      "challengeId": 974,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.82,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 12,
+          "maxRating": 87,
+          "highRatingScore": 343,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 834,
+          "specialCount": 1,
+          "tradableCount": 1,
+          "scarcityPenalty": 2811
+        }
+      }
+    },
+    {
+      "challengeId": 975,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.64,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 10,
+          "sumRating": 821,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2092
+        }
+      }
+    },
+    {
+      "challengeId": 976,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.18,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 82,
+          "highRatingScore": 9,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 816,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 2353
+        }
+      }
+    },
+    {
+      "challengeId": 842,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.18,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 13,
+          "maxRating": 84,
+          "highRatingScore": 72,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 838,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 2922
+        }
+      }
+    },
+    {
+      "challengeId": 841,
+      "solved": true,
+      "stats": {
+        "averageRating": 74,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 81,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 814,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2094
+        }
+      }
+    },
+    {
+      "challengeId": 782,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.18,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 3,
+          "maxRating": 89,
+          "highRatingScore": 1321,
+          "highRatingCount": 5,
+          "identityBalancePenalty": 0,
+          "sumRating": 816,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 1608
+        }
+      }
+    },
+    {
+      "challengeId": 816,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.36,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 71,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 741,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 1749
+        }
+      }
+    },
+    {
+      "challengeId": 817,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.36,
+        "squadRating": 73,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 796,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2307
+        }
+      }
+    },
+    {
+      "challengeId": 818,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.45,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 87,
+          "highRatingScore": 343,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 10,
+          "sumRating": 797,
+          "specialCount": 1,
+          "tradableCount": 4,
+          "scarcityPenalty": 2851
+        }
+      }
+    },
+    {
+      "challengeId": 819,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.73,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 83,
+          "highRatingScore": 27,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 822,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 1718
+        }
+      }
+    },
+    {
+      "challengeId": 781,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.73,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 800,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2368
+        }
+      }
+    },
+    {
+      "challengeId": 785,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.36,
+        "squadRating": 74,
+        "solvedValue": {
+          "ratingExcess": 52,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 796,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 1506
+        }
+      }
+    },
+    {
+      "challengeId": 768,
+      "solved": true,
+      "stats": {
+        "averageRating": 66.36,
+        "squadRating": 67,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 69,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 730,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2817
+        }
+      }
+    },
+    {
+      "challengeId": 769,
+      "solved": true,
+      "stats": {
+        "averageRating": 69,
+        "squadRating": 71,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 77,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 759,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1857
+        }
+      }
+    },
+    {
+      "challengeId": 770,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.18,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 10,
+          "sumRating": 816,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1965
+        }
+      }
+    },
+    {
+      "challengeId": 771,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.36,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 64,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 829,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2675
+        }
+      }
+    },
+    {
+      "challengeId": 733,
+      "solved": true,
+      "stats": {
+        "averageRating": 79.91,
+        "squadRating": 81,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 87,
+          "highRatingScore": 27,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 879,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2885
+        }
+      }
+    },
+    {
+      "challengeId": 636,
+      "solved": true,
+      "stats": {
+        "averageRating": 79,
+        "squadRating": 80,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 86,
+          "highRatingScore": 8,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 869,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2324
+        }
+      }
+    },
+    {
+      "challengeId": 637,
+      "solved": true,
+      "stats": {
+        "averageRating": 76,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 82,
+          "highRatingScore": 17,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 836,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 1805
+        }
+      }
+    },
+    {
+      "challengeId": 638,
+      "solved": true,
+      "stats": {
+        "averageRating": 79.45,
+        "squadRating": 80,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 81,
+          "highRatingScore": 3,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 874,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2489
+        }
+      }
+    },
+    {
+      "challengeId": 732,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.55,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 85,
+          "highRatingScore": 1,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 831,
+          "specialCount": 1,
+          "tradableCount": 0,
+          "scarcityPenalty": 2512
+        }
+      }
+    },
+    {
+      "challengeId": 731,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.09,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 75,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 738,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 3006
+        }
+      }
+    },
+    {
+      "challengeId": 698,
+      "solved": true,
+      "stats": {
+        "averageRating": 66.91,
+        "squadRating": 67,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 70,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 736,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2901
+        }
+      }
+    },
+    {
+      "challengeId": 699,
+      "solved": true,
+      "stats": {
+        "averageRating": 70.64,
+        "squadRating": 73,
+        "solvedValue": {
+          "ratingExcess": 8,
+          "maxRating": 77,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 777,
+          "specialCount": 0,
+          "tradableCount": 5,
+          "scarcityPenalty": 2517
+        }
+      }
+    },
+    {
+      "challengeId": 700,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.82,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 10,
+          "sumRating": 812,
+          "specialCount": 0,
+          "tradableCount": 6,
+          "scarcityPenalty": 1568
+        }
+      }
+    },
+    {
+      "challengeId": 701,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.36,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 3,
+          "maxRating": 89,
+          "highRatingScore": 745,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 840,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 2059
+        }
+      }
+    },
+    {
+      "challengeId": 624,
+      "solved": true,
+      "stats": {
+        "averageRating": 77.73,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 88,
+          "highRatingScore": 514,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 855,
+          "specialCount": 1,
+          "tradableCount": 3,
+          "scarcityPenalty": 2254
+        }
+      }
+    },
+    {
+      "challengeId": 623,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.55,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 9,
+          "maxRating": 87,
+          "highRatingScore": 343,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 798,
+          "specialCount": 1,
+          "tradableCount": 0,
+          "scarcityPenalty": 1704
+        }
+      }
+    },
+    {
+      "challengeId": 615,
+      "solved": true,
+      "stats": {
+        "averageRating": 78.36,
+        "squadRating": 81,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 85,
+          "highRatingScore": 325,
+          "highRatingCount": 5,
+          "identityBalancePenalty": 0,
+          "sumRating": 862,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1852
+        }
+      }
+    },
+    {
+      "challengeId": 622,
+      "solved": true,
+      "stats": {
+        "averageRating": 67,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 70,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 737,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 1782
+        }
+      }
+    },
+    {
+      "challengeId": 605,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.45,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 83,
+          "highRatingScore": 35,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 841,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 1525
+        }
+      }
+    },
+    {
+      "challengeId": 614,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.64,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 87,
+          "highRatingScore": 27,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 832,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2149
+        }
+      }
+    },
+    {
+      "challengeId": 590,
+      "solved": true,
+      "stats": {
+        "averageRating": 78,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 14,
+          "maxRating": 84,
+          "highRatingScore": 73,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 858,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 3018
+        }
+      }
+    },
+    {
+      "challengeId": 589,
+      "solved": true,
+      "stats": {
+        "averageRating": 79,
+        "squadRating": 80,
+        "solvedValue": {
+          "ratingExcess": 15,
+          "maxRating": 89,
+          "highRatingScore": 732,
+          "highRatingCount": 4,
+          "identityBalancePenalty": 0,
+          "sumRating": 869,
+          "specialCount": 1,
+          "tradableCount": 2,
+          "scarcityPenalty": 4844
+        }
+      }
+    },
+    {
+      "challengeId": 588,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.45,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 6,
+          "maxRating": 79,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 808,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 2626
+        }
+      }
+    },
+    {
+      "challengeId": 586,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.27,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 82,
+          "highRatingScore": 8,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 817,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 2054
+        }
+      }
+    },
+    {
+      "challengeId": 585,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.18,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 65,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 838,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 3141
+        }
+      }
+    },
+    {
+      "challengeId": 584,
+      "solved": true,
+      "stats": {
+        "averageRating": 80.73,
+        "squadRating": 83,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 89,
+          "highRatingScore": 243,
+          "highRatingCount": 4,
+          "identityBalancePenalty": 0,
+          "sumRating": 888,
+          "specialCount": 1,
+          "tradableCount": 3,
+          "scarcityPenalty": 1501
+        }
+      }
+    },
+    {
+      "challengeId": 583,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.91,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 89,
+          "highRatingScore": 125,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 846,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 1733
+        }
+      }
+    },
+    {
+      "challengeId": 582,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.09,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 1,
+          "maxRating": 85,
+          "highRatingScore": 152,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 837,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 3314
+        }
+      }
+    },
+    {
+      "challengeId": 581,
+      "solved": true,
+      "stats": {
+        "averageRating": 81.45,
+        "squadRating": 82,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 896,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2008
+        }
+      }
+    },
+    {
+      "challengeId": 580,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.73,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 5,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 811,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2476
+        }
+      }
+    },
+    {
+      "challengeId": 575,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.27,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 70,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 740,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 2193
+        }
+      }
+    },
+    {
+      "challengeId": 549,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.18,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 11,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 816,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1790
+        }
+      }
+    },
+    {
+      "challengeId": 576,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.18,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 69,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 739,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 1813
+        }
+      }
+    },
+    {
+      "challengeId": 577,
+      "solved": true,
+      "stats": {
+        "averageRating": 71,
+        "squadRating": 74,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 88,
+          "highRatingScore": 64,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 781,
+          "specialCount": 1,
+          "tradableCount": 2,
+          "scarcityPenalty": 3239
+        }
+      }
+    },
+    {
+      "challengeId": 578,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.27,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 82,
+          "highRatingScore": 8,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 10,
+          "sumRating": 817,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2385
+        }
+      }
+    },
+    {
+      "challengeId": 579,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.09,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 826,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2439
+        }
+      }
+    },
+    {
+      "challengeId": 565,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.55,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 9,
+          "maxRating": 84,
+          "highRatingScore": 91,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 809,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2050
+        }
+      }
+    },
+    {
+      "challengeId": 564,
+      "solved": true,
+      "stats": {
+        "averageRating": 68.82,
+        "squadRating": 71,
+        "solvedValue": {
+          "ratingExcess": 1,
+          "maxRating": 74,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 757,
+          "specialCount": 0,
+          "tradableCount": 5,
+          "scarcityPenalty": 1893
+        }
+      }
+    },
+    {
+      "challengeId": 543,
+      "solved": true,
+      "stats": {
+        "averageRating": 82.09,
+        "squadRating": 83,
+        "solvedValue": {
+          "ratingExcess": 3,
+          "maxRating": 89,
+          "highRatingScore": 1171,
+          "highRatingCount": 6,
+          "identityBalancePenalty": 0,
+          "sumRating": 903,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 1273
+        }
+      }
+    },
+    {
+      "challengeId": 523,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.73,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 89,
+          "highRatingScore": 125,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 844,
+          "specialCount": 1,
+          "tradableCount": 3,
+          "scarcityPenalty": 2701
+        }
+      }
+    },
+    {
+      "challengeId": 522,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.18,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 13,
+          "maxRating": 84,
+          "highRatingScore": 72,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 838,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 2922
+        }
+      }
+    },
+    {
+      "challengeId": 521,
+      "solved": true,
+      "stats": {
+        "averageRating": 56.27,
+        "squadRating": 58,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 68,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 619,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 3021
+        }
+      }
+    },
+    {
+      "challengeId": 428,
+      "solved": true,
+      "stats": {
+        "averageRating": 79.18,
+        "squadRating": 81,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 89,
+          "highRatingScore": 125,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 871,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1079
+        }
+      }
+    },
+    {
+      "challengeId": 496,
+      "solved": true,
+      "stats": {
+        "averageRating": 66.73,
+        "squadRating": 67,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 71,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 734,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2543
+        }
+      }
+    },
+    {
+      "challengeId": 497,
+      "solved": true,
+      "stats": {
+        "averageRating": 71.82,
+        "squadRating": 73,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 790,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1294
+        }
+      }
+    },
+    {
+      "challengeId": 498,
+      "solved": true,
+      "stats": {
+        "averageRating": 77.55,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 3,
+          "maxRating": 81,
+          "highRatingScore": 1,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 10,
+          "sumRating": 853,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2193
+        }
+      }
+    },
+    {
+      "challengeId": 499,
+      "solved": true,
+      "stats": {
+        "averageRating": 80.27,
+        "squadRating": 81,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 89,
+          "highRatingScore": 1081,
+          "highRatingCount": 4,
+          "identityBalancePenalty": 0,
+          "sumRating": 883,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2867
+        }
+      }
+    },
+    {
+      "challengeId": 427,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.91,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 12,
+          "maxRating": 83,
+          "highRatingScore": 28,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 813,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1897
+        }
+      }
+    },
+    {
+      "challengeId": 426,
+      "solved": true,
+      "stats": {
+        "averageRating": 66.18,
+        "squadRating": 67,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 70,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 728,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2822
+        }
+      }
+    },
+    {
+      "challengeId": 380,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.18,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 71,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 739,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2175
+        }
+      }
+    },
+    {
+      "challengeId": 381,
+      "solved": true,
+      "stats": {
+        "averageRating": 70.36,
+        "squadRating": 72,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 774,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1514
+        }
+      }
+    },
+    {
+      "challengeId": 382,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.27,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 79,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 817,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 1922
+        }
+      }
+    },
+    {
+      "challengeId": 383,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.55,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 820,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2438
+        }
+      }
+    },
+    {
+      "challengeId": 365,
+      "solved": true,
+      "stats": {
+        "averageRating": 78.18,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 85,
+          "highRatingScore": 1,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 860,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1995
+        }
+      }
+    },
+    {
+      "challengeId": 364,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.82,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 89,
+          "highRatingScore": 125,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 812,
+          "specialCount": 1,
+          "tradableCount": 3,
+          "scarcityPenalty": 2753
+        }
+      }
+    },
+    {
+      "challengeId": 363,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.73,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 800,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2368
+        }
+      }
+    },
+    {
+      "challengeId": 302,
+      "solved": true,
+      "stats": {
+        "averageRating": 57.82,
+        "squadRating": 61,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 70,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 636,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 3349
+        }
+      }
+    },
+    {
+      "challengeId": 303,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.64,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 74,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 744,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 3205
+        }
+      }
+    },
+    {
+      "challengeId": 304,
+      "solved": true,
+      "stats": {
+        "averageRating": 73.55,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 809,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2244
+        }
+      }
+    },
+    {
+      "challengeId": 305,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.36,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 64,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 818,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 2629
+        }
+      }
+    },
+    {
+      "challengeId": 400,
+      "solved": true,
+      "stats": {
+        "averageRating": 79.55,
+        "squadRating": 80,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 875,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 3452
+        }
+      }
+    },
+    {
+      "challengeId": 230,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.67,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 454,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1235
+        }
+      }
+    },
+    {
+      "challengeId": 229,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.5,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 89,
+          "highRatingScore": 125,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 453,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 1091
+        }
+      }
+    },
+    {
+      "challengeId": 228,
+      "solved": true,
+      "stats": {
+        "averageRating": 77.36,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 81,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 851,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 3084
+        }
+      }
+    },
+    {
+      "challengeId": 306,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.82,
+        "squadRating": 69,
+        "solvedValue": {
+          "ratingExcess": 3,
+          "maxRating": 73,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 746,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1174
+        }
+      }
+    },
+    {
+      "challengeId": 275,
+      "solved": true,
+      "stats": {
+        "averageRating": 60.09,
+        "squadRating": 63,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 73,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 661,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 4112
+        }
+      }
+    },
+    {
+      "challengeId": 276,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.36,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 69,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 741,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2198
+        }
+      }
+    },
+    {
+      "challengeId": 277,
+      "solved": true,
+      "stats": {
+        "averageRating": 70.64,
+        "squadRating": 72,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 777,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1798
+        }
+      }
+    },
+    {
+      "challengeId": 278,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.55,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 2,
+          "maxRating": 82,
+          "highRatingScore": 8,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 831,
+          "specialCount": 0,
+          "tradableCount": 5,
+          "scarcityPenalty": 2924
+        }
+      }
+    },
+    {
+      "challengeId": 227,
+      "solved": true,
+      "stats": {
+        "averageRating": 70.91,
+        "squadRating": 72,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 74,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 780,
+          "specialCount": 0,
+          "tradableCount": 8,
+          "scarcityPenalty": 2034
+        }
+      }
+    },
+    {
+      "challengeId": 226,
+      "solved": true,
+      "stats": {
+        "averageRating": 79.43,
+        "squadRating": 82,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 87,
+          "highRatingScore": 28,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 556,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 1064
+        }
+      }
+    },
+    {
+      "challengeId": 215,
+      "solved": true,
+      "stats": {
+        "averageRating": 78.45,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 82,
+          "highRatingScore": 17,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 863,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2163
+        }
+      }
+    },
+    {
+      "challengeId": 262,
+      "solved": true,
+      "stats": {
+        "averageRating": 59.09,
+        "squadRating": 62,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 70,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 650,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 3857
+        }
+      }
+    },
+    {
+      "challengeId": 263,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.64,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 74,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 744,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 3205
+        }
+      }
+    },
+    {
+      "challengeId": 264,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.36,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 829,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2140
+        }
+      }
+    },
+    {
+      "challengeId": 265,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.18,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 1,
+          "maxRating": 82,
+          "highRatingScore": 9,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 827,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 2422
+        }
+      }
+    },
+    {
+      "challengeId": 214,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.91,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 824,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2135
+        }
+      }
+    },
+    {
+      "challengeId": 213,
+      "solved": true,
+      "stats": {
+        "averageRating": 67.45,
+        "squadRating": 69,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 742,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2199
+        }
+      }
+    },
+    {
+      "challengeId": 206,
+      "solved": true,
+      "stats": {
+        "averageRating": 58.73,
+        "squadRating": 63,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 72,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 646,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2813
+        }
+      }
+    },
+    {
+      "challengeId": 207,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.18,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 794,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 1693
+        }
+      }
+    },
+    {
+      "challengeId": 208,
+      "solved": true,
+      "stats": {
+        "averageRating": 70.55,
+        "squadRating": 73,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 776,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2469
+        }
+      }
+    },
+    {
+      "challengeId": 209,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.27,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 2,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 839,
+          "specialCount": 0,
+          "tradableCount": 5,
+          "scarcityPenalty": 2647
+        }
+      }
+    },
+    {
+      "challengeId": 161,
+      "solved": true,
+      "stats": {
+        "averageRating": 67,
+        "squadRating": 68,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 70,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 737,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2412
+        }
+      }
+    },
+    {
+      "challengeId": 162,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.09,
+        "squadRating": 73,
+        "solvedValue": {
+          "ratingExcess": 3,
+          "maxRating": 75,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 793,
+          "specialCount": 0,
+          "tradableCount": 7,
+          "scarcityPenalty": 2965
+        }
+      }
+    },
+    {
+      "challengeId": 70,
+      "solved": true,
+      "stats": {
+        "averageRating": 68.73,
+        "squadRating": 74,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 10,
+          "sumRating": 756,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2845
+        }
+      }
+    },
+    {
+      "challengeId": 98,
+      "solved": true,
+      "stats": {
+        "averageRating": 57.82,
+        "squadRating": 62,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 72,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 636,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 3019
+        }
+      }
+    },
+    {
+      "challengeId": 99,
+      "solved": true,
+      "stats": {
+        "averageRating": 68.55,
+        "squadRating": 69,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 73,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 754,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2324
+        }
+      }
+    },
+    {
+      "challengeId": 100,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.27,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 828,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1541
+        }
+      }
+    },
+    {
+      "challengeId": 101,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.27,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 795,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2460
+        }
+      }
+    },
+    {
+      "challengeId": 106,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.55,
+        "squadRating": 77,
+        "solvedValue": {
+          "ratingExcess": 7,
+          "maxRating": 84,
+          "highRatingScore": 64,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 820,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1726
+        }
+      }
+    },
+    {
+      "challengeId": 105,
+      "solved": true,
+      "stats": {
+        "averageRating": 77.45,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 9,
+          "maxRating": 87,
+          "highRatingScore": 343,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 852,
+          "specialCount": 1,
+          "tradableCount": 4,
+          "scarcityPenalty": 4313
+        }
+      }
+    },
+    {
+      "challengeId": 104,
+      "solved": true,
+      "stats": {
+        "averageRating": 78.27,
+        "squadRating": 80,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 90,
+          "highRatingScore": 341,
+          "highRatingCount": 2,
+          "identityBalancePenalty": 0,
+          "sumRating": 861,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 1682
+        }
+      }
+    },
+    {
+      "challengeId": 92,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.91,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 1,
+          "maxRating": 80,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 824,
+          "specialCount": 0,
+          "tradableCount": 4,
+          "scarcityPenalty": 2819
+        }
+      }
+    },
+    {
+      "challengeId": 93,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.55,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 842,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2023
+        }
+      }
+    },
+    {
+      "challengeId": 94,
+      "solved": true,
+      "stats": {
+        "averageRating": 71.55,
+        "squadRating": 74,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 787,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2511
+        }
+      }
+    },
+    {
+      "challengeId": 95,
+      "solved": true,
+      "stats": {
+        "averageRating": 56.73,
+        "squadRating": 60,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 68,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 624,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 3123
+        }
+      }
+    },
+    {
+      "challengeId": 62,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.64,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 81,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 799,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 2898
+        }
+      }
+    },
+    {
+      "challengeId": 61,
+      "solved": true,
+      "stats": {
+        "averageRating": 69.45,
+        "squadRating": 73,
+        "solvedValue": {
+          "ratingExcess": 8,
+          "maxRating": 74,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 764,
+          "specialCount": 0,
+          "tradableCount": 6,
+          "scarcityPenalty": 2267
+        }
+      }
+    },
+    {
+      "challengeId": 27,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.36,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 6,
+          "maxRating": 81,
+          "highRatingScore": 1,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 829,
+          "specialCount": 0,
+          "tradableCount": 5,
+          "scarcityPenalty": 2524
+        }
+      }
+    },
+    {
+      "challengeId": 28,
+      "solved": true,
+      "stats": {
+        "averageRating": 58.73,
+        "squadRating": 62,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 73,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 646,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 3248
+        }
+      }
+    },
+    {
+      "challengeId": 29,
+      "solved": true,
+      "stats": {
+        "averageRating": 68.73,
+        "squadRating": 69,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 72,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 756,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2441
+        }
+      }
+    },
+    {
+      "challengeId": 31,
+      "solved": true,
+      "stats": {
+        "averageRating": 76.55,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 3,
+          "maxRating": 82,
+          "highRatingScore": 8,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 842,
+          "specialCount": 0,
+          "tradableCount": 7,
+          "scarcityPenalty": 2782
+        }
+      }
+    },
+    {
+      "challengeId": 32,
+      "solved": true,
+      "stats": {
+        "averageRating": 70.82,
+        "squadRating": 73,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 79,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 779,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2015
+        }
+      }
+    },
+    {
+      "challengeId": 34,
+      "solved": true,
+      "stats": {
+        "averageRating": 72.55,
+        "squadRating": 75,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 64,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 798,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 1406
+        }
+      }
+    },
+    {
+      "challengeId": 33,
+      "solved": true,
+      "stats": {
+        "averageRating": 65.36,
+        "squadRating": 67,
+        "solvedValue": {
+          "ratingExcess": 2,
+          "maxRating": 73,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 719,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 1911
+        }
+      }
+    },
+    {
+      "challengeId": 23,
+      "solved": true,
+      "stats": {
+        "averageRating": 77.27,
+        "squadRating": 79,
+        "solvedValue": {
+          "ratingExcess": 4,
+          "maxRating": 83,
+          "highRatingScore": 36,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 850,
+          "specialCount": 0,
+          "tradableCount": 5,
+          "scarcityPenalty": 2248
+        }
+      }
+    },
+    {
+      "challengeId": 24,
+      "solved": true,
+      "stats": {
+        "averageRating": 74.18,
+        "squadRating": 76,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 816,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2355
+        }
+      }
+    },
+    {
+      "challengeId": 25,
+      "solved": true,
+      "stats": {
+        "averageRating": 70.36,
+        "squadRating": 72,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 774,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 2432
+        }
+      }
+    },
+    {
+      "challengeId": 26,
+      "solved": true,
+      "stats": {
+        "averageRating": 56.82,
+        "squadRating": 60,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 68,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 625,
+          "specialCount": 0,
+          "tradableCount": 1,
+          "scarcityPenalty": 3434
+        }
+      }
+    },
+    {
+      "challengeId": 30,
+      "solved": true,
+      "stats": {
+        "averageRating": 70.82,
+        "squadRating": 74,
+        "solvedValue": {
+          "ratingExcess": 14,
+          "maxRating": 78,
+          "highRatingScore": 0,
+          "highRatingCount": 0,
+          "identityBalancePenalty": 0,
+          "sumRating": 779,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 2507
+        }
+      }
+    },
+    {
+      "challengeId": 19,
+      "solved": true,
+      "stats": {
+        "averageRating": 78.27,
+        "squadRating": 80,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 84,
+          "highRatingScore": 100,
+          "highRatingCount": 4,
+          "identityBalancePenalty": 0,
+          "sumRating": 861,
+          "specialCount": 0,
+          "tradableCount": 3,
+          "scarcityPenalty": 2531
+        }
+      }
+    },
+    {
+      "challengeId": 20,
+      "solved": true,
+      "stats": {
+        "averageRating": 75.45,
+        "squadRating": 78,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 82,
+          "highRatingScore": 24,
+          "highRatingCount": 3,
+          "identityBalancePenalty": 0,
+          "sumRating": 830,
+          "specialCount": 0,
+          "tradableCount": 2,
+          "scarcityPenalty": 1835
+        }
+      }
+    },
+    {
+      "challengeId": 21,
+      "solved": true,
+      "stats": {
+        "averageRating": 78.64,
+        "squadRating": 80,
+        "solvedValue": {
+          "ratingExcess": 0,
+          "maxRating": 85,
+          "highRatingScore": 1,
+          "highRatingCount": 1,
+          "identityBalancePenalty": 0,
+          "sumRating": 865,
+          "specialCount": 0,
+          "tradableCount": 0,
+          "scarcityPenalty": 1852
+        }
+      }
+    }
+  ]
+}
