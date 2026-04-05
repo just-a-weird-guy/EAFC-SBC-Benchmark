@@ -1,0 +1,132 @@
+{
+  "challenge": {
+    "source": "futbin",
+    "fidelity": "parsed-text",
+    "challengeId": 1404,
+    "setId": 482,
+    "setIdSource": "futbin_group",
+    "setName": "Superfans Challenge",
+    "challengeName": "Superfans Challenge",
+    "openedAt": null,
+    "challengeStatus": "UNKNOWN",
+    "squadSize": 11,
+    "formationName": "3-5-2",
+    "formationCode": "352",
+    "slotSource": "challenge-react-data",
+    "squadSlots": [
+      {
+        "slotId": "cardlid1",
+        "slotIndex": 0,
+        "positionName": "ST"
+      },
+      {
+        "slotId": "cardlid2",
+        "slotIndex": 1,
+        "positionName": "CAM"
+      },
+      {
+        "slotId": "cardlid3",
+        "slotIndex": 2,
+        "positionName": "ST"
+      },
+      {
+        "slotId": "cardlid4",
+        "slotIndex": 3,
+        "positionName": "LM"
+      },
+      {
+        "slotId": "cardlid5",
+        "slotIndex": 4,
+        "positionName": "CDM"
+      },
+      {
+        "slotId": "cardlid6",
+        "slotIndex": 5,
+        "positionName": "CDM"
+      },
+      {
+        "slotId": "cardlid7",
+        "slotIndex": 6,
+        "positionName": "RM"
+      },
+      {
+        "slotId": "cardlid8",
+        "slotIndex": 7,
+        "positionName": "CB"
+      },
+      {
+        "slotId": "cardlid9",
+        "slotIndex": 8,
+        "positionName": "CB"
+      },
+      {
+        "slotId": "cardlid10",
+        "slotIndex": 9,
+        "positionName": "CB"
+      },
+      {
+        "slotId": "cardlid11",
+        "slotIndex": 10,
+        "positionName": "GK"
+      }
+    ],
+    "requirementsText": [
+      "Squad Rating: Min 86",
+      "# of players in squad: 11"
+    ],
+    "requirementsRaw": [],
+    "requirements": [
+      {
+        "scope": null,
+        "count": -1,
+        "isCombined": false,
+        "label": "Squad Rating: Min 86",
+        "kvPairs": []
+      },
+      {
+        "scope": null,
+        "count": 11,
+        "isCombined": false,
+        "label": "# of players in squad: 11",
+        "kvPairs": []
+      }
+    ],
+    "requirementsNormalized": [
+      {
+        "type": "team_rating",
+        "key": null,
+        "keyName": null,
+        "keyNameNormalized": "team_rating",
+        "typeSource": "futbin-text",
+        "op": "min",
+        "count": -1,
+        "derivedCount": null,
+        "value": [
+          86
+        ],
+        "scope": null,
+        "scopeName": "GREATER",
+        "label": "Squad Rating: Min 86"
+      },
+      {
+        "type": "players_in_squad",
+        "key": null,
+        "keyName": null,
+        "keyNameNormalized": "players_in_squad",
+        "typeSource": "futbin-text",
+        "op": "exact",
+        "count": 11,
+        "derivedCount": null,
+        "value": [
+          11
+        ],
+        "scope": null,
+        "scopeName": "EXACT",
+        "label": "# of players in squad: 11"
+      }
+    ],
+    "unresolvedRequirements": [],
+    "challengeUrl": "https://www.futbin.com/26/squad-building-challenge/ea/1404/Superfans%20Challenge",
+    "groupUrl": "https://www.futbin.com/26/squad-building-challenge/482"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "eafc-sbc-solver-workspace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "node evaluator/run-evaluation.mjs",
+    "evaluate": "node evaluator/run-evaluation.mjs --candidate candidate/solver.js --report candidate/report.json",
+    "validate:one": "node evaluator/validate-solution.mjs",
+    "score:one": "node evaluator/score-solution.mjs"
+  }
+}

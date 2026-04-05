@@ -1,40 +1,33 @@
-# EAFC-SBC-Benchmark
+# EAFC-SBC-Solver-Pack
 
-EAFC-SBC-Benchmark is a benchmark for testing whether a fresh LLM can build a working EAFC SBC (squad building challenge) solver algorithm from the materials in this repo.
+EAFC-SBC-Solver-Pack is a packaged EA FC SBC solver task with a separate operator-side comparison workspace.
 
-The benchmark checks whether the model can:
-- implement SBC legality correctly
-- handle chemistry and slot placement when required
-- search the fixed player pool for valid squads
-- avoid wasteful solutions compared to the baseline
-- generate a functioning solving algorithm for sbc challenges
+The goal is to let a model build a working solver from the shipped materials while keeping stored reference data out of the model-facing workspace.
 
-Use it like this:
-1. hand the repo to a fresh model
-2. paste `PROMPT.md`
-3. let it build the solving algorithm at `candidate/solver.js`
-4. run the evaluator
-5. inspect the models performance in this benchmark in the final comparison report
+## Important Isolation Rule
 
-## Start Here
+This pack is split into two separate workspaces on purpose:
+- [OPEN-IN-LLM_EAFC-SBC-Solver-Workspace](C:\Users\USER\Downloads\projects\ea-data-extension\EAFC-SBC-Solver-Pack\OPEN-IN-LLM_EAFC-SBC-Solver-Workspace)
+- [RUN-AFTER-LLM_EAFC-SBC-Reference-Workspace](C:\Users\USER\Downloads\projects\ea-data-extension\EAFC-SBC-Solver-Pack\RUN-AFTER-LLM_EAFC-SBC-Reference-Workspace)
 
-- To task the model, use `PROMPT.md`
-- To evaluate a finished solver, use the commands below
+Only open [OPEN-IN-LLM_EAFC-SBC-Solver-Workspace](C:\Users\USER\Downloads\projects\ea-data-extension\EAFC-SBC-Solver-Pack\OPEN-IN-LLM_EAFC-SBC-Solver-Workspace) in the tested LLM.
 
-## Layout
+Do not open this root directory in the tested LLM.
+Do not open [RUN-AFTER-LLM_EAFC-SBC-Reference-Workspace](C:\Users\USER\Downloads\projects\ea-data-extension\EAFC-SBC-Solver-Pack\RUN-AFTER-LLM_EAFC-SBC-Reference-Workspace) in the tested LLM.
 
-- `PROMPT.md`: the prompt you give to the tested model
-- `model-kit/`: model-facing rules, schemas, and datasets
-- `candidate/`: where the tested solver lives
-- `evaluator/`: benchmark runner, validator, scorer, baseline reference, and final-report tools
+That separation exists to prevent leakage of stored per-challenge reference data, profiling signals, or other operator-only information into the tested model's context. If the tested model is given the wrong directory scope, result integrity is weakened.
+If your LLM app can access parent or sibling directories outside the folder you opened, move [RUN-AFTER-LLM_EAFC-SBC-Reference-Workspace](C:\Users\USER\Downloads\projects\ea-data-extension\EAFC-SBC-Solver-Pack\RUN-AFTER-LLM_EAFC-SBC-Reference-Workspace) elsewhere before testing.
 
 ## Snapshot
 
-- Challenges: `209`
+- Challenges: `228`
 - Players in dataset pool: `2025`
-- Baseline: `209/209` solved
-- Challenge source: `model-kit/datasets/challenges-v1.json`
-- Player source: `model-kit/datasets/players-v1-flat.json`
+- Chemistry challenges: `225`
+- Sub-11-player challenges: `3`
+- Stored reference run: `228/228` solved
+- Included corpus: all `228` challenges were verified solvable against the shipped player pool by the shipped reference solver
+- Challenge source: `OPEN-IN-LLM_EAFC-SBC-Solver-Workspace/model-kit/datasets/challenges-v1.json`
+- Player source: `OPEN-IN-LLM_EAFC-SBC-Solver-Workspace/model-kit/datasets/players-v1-flat.json`
 
 ## Scoring
 
@@ -43,26 +36,38 @@ Ranking is based on:
 2. average-rating quality on mutually solved challenges
 3. unwanted-behavior penalties such as unnecessary specials, informs, tradables, scarce cards, and high-rating anchors
 
-## Quick Use
+## Workflow
 
-If `candidate/solver.js` exists, run the full evaluation flow:
+1. Open [OPEN-IN-LLM_EAFC-SBC-Solver-Workspace](C:\Users\USER\Downloads\projects\ea-data-extension\EAFC-SBC-Solver-Pack\OPEN-IN-LLM_EAFC-SBC-Solver-Workspace) in the tested LLM
+2. Paste [PROMPT.md](C:\Users\USER\Downloads\projects\ea-data-extension\EAFC-SBC-Solver-Pack\OPEN-IN-LLM_EAFC-SBC-Solver-Workspace\PROMPT.md)
+3. Let the model build `candidate/solver.js`
+4. Run the model-facing evaluation inside that same folder if the model has not already run it:
 
 ```bash
-node evaluator/run-full-evaluation.mjs --candidate candidate/solver.js
+node evaluator/run-evaluation.mjs --candidate candidate/solver.js --report candidate/report.json
 ```
 
 That generates:
-- `candidate/report.json`: the raw benchmark output
-- `candidate/final-comparison.json`: the structured comparison summary
-- `candidate/final-comparison.md`: the compact human-readable result
+- `candidate/report.json`: the raw evaluation output
 
-If you want the steps separately:
+5. After the model run is finished, switch to [RUN-AFTER-LLM_EAFC-SBC-Reference-Workspace](C:\Users\USER\Downloads\projects\ea-data-extension\EAFC-SBC-Solver-Pack\RUN-AFTER-LLM_EAFC-SBC-Reference-Workspace) and run:
 
 ```bash
-node evaluator/run-benchmark.mjs --candidate candidate/solver.js --report candidate/report.json
-node evaluator/render-final-report.mjs --report candidate/report.json --json candidate/final-comparison.json --md candidate/final-comparison.md
+node run-reference-comparison.mjs
 ```
 
-The candidate report is compared against `evaluator/baseline-reference.json`, the reference for this snapshot.
-The v1 benchmark contains only challenges that are actually solvable on the shipped player pool.
-The baseline reference file is redacted and does not include reference player selections or slot placements solutions.
+The model-facing workspace does not ship the stored per-challenge reference data.
+The after-run workspace exists to join the finished candidate report with that stored reference without exposing it to the tested model.
+
+## Reference Solver
+
+The operator-side workspace also includes a runnable reference solver:
+- [reference-solver](C:\Users\USER\Downloads\projects\ea-data-extension\EAFC-SBC-Solver-Pack\RUN-AFTER-LLM_EAFC-SBC-Reference-Workspace\reference-solver)
+
+Run it from the after-run workspace if you want with:
+
+```bash
+node reference-solver/run-reference-evaluation.mjs
+```
+
+That command writes its raw evaluation report and reference comparison into `RUN-AFTER-LLM_EAFC-SBC-Reference-Workspace/output/reference-solver/`.
