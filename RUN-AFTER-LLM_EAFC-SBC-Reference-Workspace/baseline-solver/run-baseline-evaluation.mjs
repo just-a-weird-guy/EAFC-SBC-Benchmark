@@ -4,10 +4,10 @@ import fs from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 
 const usage = `
-Run the shipped reference solver against the solver workspace and render the reference comparison.
+Run the shipped baseline solver against the solver workspace and render the baseline comparison.
 
 Usage:
-  node reference-solver/run-reference-evaluation.mjs [--workspace-root <dir>]
+  node baseline-solver/run-baseline-evaluation.mjs [--workspace-root <dir>]
 `;
 
 const parseArgs = (argv) => {
@@ -56,10 +56,10 @@ const run = async () => {
     "OPEN-IN-LLM_EAFC-SBC-Solver-Workspace",
   );
   const candidatePath = path.resolve(__dirname, "task-solver.mjs");
-  const outputDir = path.resolve(afterRunRoot, "output", "reference-solver");
+  const outputDir = path.resolve(afterRunRoot, "output", "baseline-solver");
   const reportPath = path.join(outputDir, "report.json");
-  const jsonPath = path.join(outputDir, "reference-comparison.json");
-  const mdPath = path.join(outputDir, "reference-comparison.md");
+  const jsonPath = path.join(outputDir, "baseline-comparison.json");
+  const mdPath = path.join(outputDir, "baseline-comparison.md");
 
   await fs.mkdir(outputDir, { recursive: true });
 
@@ -70,7 +70,7 @@ const run = async () => {
   );
 
   await runNodeScript(
-    path.resolve(afterRunRoot, "run-reference-comparison.mjs"),
+    path.resolve(afterRunRoot, "run-baseline-comparison.mjs"),
     [
       "--workspace-root",
       workspaceRoot,

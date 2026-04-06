@@ -3,10 +3,10 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const usage = `
-Run the operator-side comparison against the stored reference report.
+Run the operator-side comparison against the stored baseline report.
 
 Usage:
-  node run-reference-comparison.mjs [--workspace-root <dir>] [--report <file>] [--json <file>] [--md <file>]
+  node run-baseline-comparison.mjs [--workspace-root <dir>] [--report <file>] [--json <file>] [--md <file>]
 `;
 
 const PENALTY_SCALES = {
@@ -173,7 +173,7 @@ const buildScoreBreakdown = ({
       spendDisciplineScore:
         "10 * (1 - average(clamped positive penalty deltas across the evaluation penalty metrics))",
       notes: {
-        overallScore: "higher is better; stored reference is 100",
+        overallScore: "higher is better; stored baseline is 100",
         coverageScore: "higher is better; max 80",
         ratingScore:
           "higher is better; max 10; a positive average rating delta lowers the score",
@@ -261,7 +261,7 @@ const buildReferenceComparison = (candidateReport, referenceReport) => {
   });
 
   return {
-    version: "eafc-sbc-reference-comparison-v1",
+    version: "eafc-sbc-baseline-comparison-v1",
     generatedAt: new Date().toISOString(),
     candidate: {
       path: candidateReport?.evaluation?.candidatePath ?? null,
@@ -275,7 +275,7 @@ const buildReferenceComparison = (candidateReport, referenceReport) => {
       meanAverageRatingDeltaVsReference,
       overallScore: scoreBreakdown.overallScore,
       notes: {
-        overallScore: "higher is better; stored reference is 100",
+        overallScore: "higher is better; stored baseline is 100",
         solvedCount: "higher is better",
         solveGap: "lower is better",
         meanAverageRatingDeltaVsReference:
@@ -301,23 +301,23 @@ const buildMarkdown = (finalReport) => {
   ];
 
   const lines = [];
-  lines.push("# Reference Comparison");
+  lines.push("# Baseline Comparison");
   lines.push("");
   lines.push(
-    `- Overall score: \`${finalReport.headline.overallScore} / 100\` (higher is better; stored reference is 100)`,
+    `- Overall score: \`${finalReport.headline.overallScore} / 100\` (higher is better; stored baseline is 100)`,
   );
   lines.push(
     `- Candidate solved: \`${finalReport.headline.candidateSolvedCount} / ${finalReport.headline.challengeCount}\` (higher is better)`,
   );
   lines.push(
-    `- Reference solved: \`${finalReport.headline.referenceSolvedCount} / ${finalReport.headline.challengeCount}\` (higher is better)`,
+    `- Baseline solved: \`${finalReport.headline.referenceSolvedCount} / ${finalReport.headline.challengeCount}\` (higher is better)`,
   );
   lines.push(
     `- Solve gap: \`${finalReport.headline.solveGap}\` (lower is better)`,
   );
   lines.push(`- Mutually solved: \`${finalReport.headline.mutualSolvedCount}\``);
   lines.push(
-    `- Average rating delta vs reference: \`${formatSigned(finalReport.headline.meanAverageRatingDeltaVsReference)}\` (lower is better; negative is better than reference)`,
+    `- Average rating delta vs baseline: \`${formatSigned(finalReport.headline.meanAverageRatingDeltaVsReference)}\` (lower is better; negative is better than baseline)`,
   );
   lines.push("");
   lines.push("## Score Breakdown");
@@ -339,7 +339,7 @@ const buildMarkdown = (finalReport) => {
       `- \`${key}\`: \`${formatSigned(finalReport.penaltyDeltaMeans?.[key])}\` (lower is better)`,
     );
   }
-  lines.push("- Full penalty deltas are available in `reference-comparison.json`");
+  lines.push("- Full penalty deltas are available in `baseline-comparison.json`");
   lines.push("");
 
   if ((finalReport.missedChallenges || []).length > 0) {
@@ -388,12 +388,12 @@ const run = async () => {
     args.report ?? path.join(workspaceRoot, "candidate", "report.json"),
   );
   const jsonPath = path.resolve(
-    args.json ?? path.join(__dirname, "output", "reference-comparison.json"),
+    args.json ?? path.join(__dirname, "output", "baseline-comparison.json"),
   );
   const mdPath = path.resolve(
-    args.md ?? path.join(__dirname, "output", "reference-comparison.md"),
+    args.md ?? path.join(__dirname, "output", "baseline-comparison.md"),
   );
-  const referencePath = path.resolve(__dirname, "reference-report.json");
+  const referencePath = path.resolve(__dirname, "baseline-report.json");
 
   const candidateReport = await readJson(reportPath);
   const referenceReport = await readJson(referencePath);
